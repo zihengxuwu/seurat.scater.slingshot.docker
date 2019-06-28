@@ -1,0 +1,8 @@
+version: '3' #docker-compose version
+services:  #Services are your different containers
+  seurat: 
+    image: "sridnona/seurat_docker"
+  scater: 
+    image: "bskjerven/scater"
+  slingshot:
+    image: "zihengxu/slingshot"
